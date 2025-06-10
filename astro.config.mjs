@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://astronaut.github.io',
+  site: 'https://adgentic.github.io',
   base: '/adgentic.github.io',
 })
