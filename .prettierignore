@@ -1,6 +1,6 @@
 .astro
 .changeset
-.github/blocks
+.github
 .next
 .vercel
 .vscode-test
