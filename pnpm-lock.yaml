@@ -44,6 +44,9 @@ importers:
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
+      starlight-theme-rapide:
+        specifier: ^0.5.1
+        version: 0.5.1(@astrojs/starlight@0.34.0(astro@5.7.4(@types/node@18.19.68)(rollup@4.40.0)(typescript@5.7.2)(yaml@2.6.1)))
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -3105,6 +3108,12 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       '@astrojs/starlight': '>=0.30.0'
+
+  starlight-theme-rapide@0.5.1:
+    resolution: {integrity: sha512-QRF6mzcYHLEX5UpUvOPXVVwISS298siIJLcKextoMLhXcnF12nX+IYJ0LNxFk9XaPbX9uDXIieSBJf5Pztkteg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.34.0'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -7735,6 +7744,10 @@ snapshots:
       '@astrojs/starlight': 0.34.0(astro@5.7.4(@types/node@18.19.68)(rollup@4.40.0)(typescript@5.7.2)(yaml@2.6.1))
     transitivePeerDependencies:
       - astro
+
+  starlight-theme-rapide@0.5.1(@astrojs/starlight@0.34.0(astro@5.7.4(@types/node@18.19.68)(rollup@4.40.0)(typescript@5.7.2)(yaml@2.6.1))):
+    dependencies:
+      '@astrojs/starlight': 0.34.0(astro@5.7.4(@types/node@18.19.68)(rollup@4.40.0)(typescript@5.7.2)(yaml@2.6.1))
 
   stream-replace-string@2.0.0: {}
 
